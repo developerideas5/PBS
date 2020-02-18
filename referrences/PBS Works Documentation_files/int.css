@@ -1,0 +1,1030 @@
+/* ==========================================================================
+   Altair PBS Redesign 2014 - Interior Pages
+   ========================================================================== */
+#interior {
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 1000px;
+}
+
+#interior aside {
+    background: #e1e1e1;
+    border: 1px solid #dedede;
+    float: left;
+    margin-right: 40px;
+    min-height: 294px;
+    padding: 106px 0 0;
+    width: 250px;
+}
+
+#interior section {
+    float: left;
+    line-height: 1.5;
+    min-height: 400px;
+    padding-top: 133px;
+    width: 708px;
+    position: relative;
+}
+
+    #interior section a[name='enabling'] {
+        top: 260px;
+        position: absolute;
+    }
+    #interior section a[name='cae'] {
+        top: 1480px;
+        position: absolute;
+    }
+    #interior section a[name='cloud'] {
+        top: 2950px;
+        position: absolute;
+    }
+
+#interior section h2 {
+    font-family: "FranklinGothicURW-Demi";
+    font-size: 50px;
+    line-height: 50px;
+    padding: 0 0 40px;
+}
+
+#interior section h2 span {
+    font-family: "FranklinGothicURW-Book";
+}
+
+#interior section h3 {
+    font-family: 'FranklinGothicURW-Demi';
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 14px;
+}
+
+
+
+
+#interior section a[name]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+}
+
+
+#interior section h4 {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 21px;
+    padding-bottom: 10px;
+}
+
+#interior section a {
+    text-decoration: none;
+}
+
+#interior section a:hover {
+    text-decoration: underline;
+}
+
+#interior section a.back-top {
+    background: url("../images/bg_top.png") no-repeat 0 0;
+    display: block;
+    font-size: 0;
+    height: 40px;
+    text-decoration: none;
+    width: 40px;
+}
+
+#interior section a.pbs-btn {
+    line-height: 20px;
+}
+
+#interior section a.pbs-btn:hover {
+    text-decoration: none;
+}
+
+#interior article {
+    font-family: "FranklinGothicURW-Demi";
+    font-size: 24px;
+    line-height: 1.4;
+    padding-bottom: 50px;
+}
+
+
+#interior section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 28px;
+  margin: 10px 0;
+}
+
+#interior section ul ul {
+  padding: 0 0 0 30px;
+  margin: 0 0;
+}
+
+#interior section li {
+  background: url("../images/g_bullet.png") no-repeat 0 8px;
+  padding-left: 14px;
+  line-height: 1.4;
+  margin-bottom: 7px;
+}
+
+
+
+
+
+#interior .info-block {
+    border: 1px solid #eaeaea;
+    background: #ccc;
+    float: left;
+    height: 255px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 340px;
+}
+
+    #interior .info-block:nth-child(even) {
+        margin-left: 24px;
+    }
+
+#interior .info-block img {
+    height: 255px;
+    width: 340px;
+}
+
+.no-js #interior .info-block {
+    display: block;
+}
+
+#interior .mask ::-moz-selection {
+    background: #FFF;
+    color: #000;
+    text-shadow: none;
+}
+
+#interior .mask ::selection {
+    background: #FFF;
+    color: #000;
+    text-shadow: none;
+}
+
+#interior .mask {
+    background-color: rgb(95,96,98); 
+    background-color: rgba(95,96,98,0.8);
+    cursor: default;
+    font-size: 16px;
+    left: 0;
+    height: 259px;
+    opacity: 1;
+    overflow: hidden;
+    position: absolute;
+    top: 68px;
+    -webkit-transform: translateY(126px);
+    -moz-transform: translateY(126px);
+    -o-transform: translateY(126px);
+    -ms-transform: translateY(126px);
+    transform: translateY(126px);
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    width: 340px;
+}
+
+.lt-ie9 #interior .mask {
+    top: 194px;
+}
+
+#interior .mask a, #interior .mask {
+    color: #FFF;
+    text-decoration: none !important;
+}
+
+#interior .mask .mask_desc {
+    display: block;
+    height: 200px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 12px 5%;
+    width: 90%;
+}
+
+#interior .mask .mask_title {
+    display: inline-block;
+    font-family: 'FranklinGothicURW-Med';
+    height: 45px;
+    line-height: 19px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#interior .mask .mask_link {
+    display: block;
+    font-size: 14px;
+    height: 35px;
+    padding: 0 5%;
+    text-decoration: underline;
+    width: 90%;
+}
+
+#interior .info-block:hover .mask {
+    background-color: rgba(95,96,98,1);
+    -webkit-transform: translateY(-70px);
+    -moz-transform: translateY(-70px);
+    -o-transform: translateY(-70px);
+    -ms-transform: translateY(-70px);
+    transform: translateY(-70px);
+}
+
+.lt-ie9 #interior .info-block:hover .mask {
+    top: 0;
+}
+
+#interior .info-block:hover p {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+
+#interior .play {
+    background: url("../images/bg_play.png") no-repeat;
+    display: none;
+    height: 70px;
+    left: 50%;
+    margin-left: -36px;
+    position: absolute;
+    top: 80px;
+    width: 72px;
+}
+
+#interior .play.current {
+    display: block;
+}
+
+aside h3 {
+    font-family: 'FranklinGothicURW-Demi';
+    font-size: 22px;
+    line-height: 22px;
+    padding: 0 18px 10px;
+}
+
+aside h3 span {
+    font-family: "FranklinGothicURW-Book";
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside li {
+    float: none;
+}
+
+aside li a {
+    border-bottom: 1px solid #ccc;
+    color: #58595b;
+    display: block;
+    font-family: "FranklinGothicURW-Book";
+    font-size: 16px;
+    line-height: 18px;
+    min-height: 20px;
+    padding: 12px 18px;
+    text-decoration: none;
+    width: 214px;
+}
+
+aside ul ul {
+    background: #ccc;
+    display: inline-block;
+    margin: -1px 0;
+    padding: 0;
+}
+
+aside li li a {
+    background: #ccc;
+    border: none;
+    color: #4b4c4d;
+    display: block;
+    font-size: 14px;
+    min-height: 16px;
+    line-height: 15px;
+    padding: 6px 18px;
+}
+
+aside li.product a {
+    background: url("../images/bg_aside.png") no-repeat #ebebeb;
+    min-height: 20px;
+    padding: 27px 18px 27px 80px;
+    width: 152px;
+}
+
+aside li.flyout a {
+    background: #6d6e71;
+    border-bottom: 1px solid #dedede;
+    color: #fff;
+    font-family: "FranklinGothicURW-Med";
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+aside li a:hover {
+    background-color: #fff;
+    color: #00a9e0;
+}
+
+aside li.flyout ~ .flyout a {
+    border-bottom: none;
+}
+
+aside li a.current {
+    background-color: #00a9e0;
+    color: #fff;
+}
+
+aside #p_down a { background-position: 0 0; }
+aside #p_down a:hover { background-position: 0 -74px; }
+aside #p_down a.current { background-position: 0 -148px; }
+
+aside #p_docs a { background-position: 0 -222px; }
+aside #p_docs a:hover { background-position: 0 -296px; }
+aside #p_docs a.current { background-position: 0 -370px; }
+
+aside #p_tech a { background-position: 0 -444px; }
+aside #p_tech a:hover { background-position: 0 -518px; }
+aside #p_tech a.current { background-position: 0 -592px; }
+
+aside #p_case a { background-position: 0 -666px; }
+aside #p_case a:hover { background-position: 0 -740px; }
+aside #p_case a.current { background-position: 0 -814px; }
+
+aside #p_webs a { background-position: 0 -888px; }
+aside #p_webs a:hover { background-position: 0 -962px; }
+aside #p_webs a.current { background-position: 0 -1036px; }
+
+aside #p_inte a { background-position: 3px -1106px; }
+aside #p_inte a:hover { background-position: 3px -1180px; }
+aside #p_inte a.current { background-position: 3px -1254px; }
+
+/* ==========================================================================
+   Product: Documentation;
+   ========================================================================== */
+#interior section .docs {
+    padding-bottom: 40px;
+}
+
+/* ==========================================================================
+   Product: Benefits;
+   ========================================================================== */
+#interior .benefits {
+    float: left;
+    height: 64px;
+    margin-bottom: 80px;
+    padding-right: 50px;
+    width: 304px;
+}
+
+#interior .benefits b,
+#interior .benefits strong {
+    font-family: 'FranklinGothicURW-Med';
+}
+
+#interior .benefits img,
+#interior .benefits figcaption {
+    display: block;
+    float: left;
+}
+
+#interior .benefits figcaption {
+    height: 64px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 0 10px;
+    width: 220px;
+}
+
+/* ==========================================================================
+   Product: Supported;
+   ========================================================================== */
+#interior .supported .lists {
+    float: left;
+    padding-right: 33px;
+    width: 525px;
+}
+
+#interior .supported figure {
+    float: left;
+    width: 150px;
+}
+
+/* ==========================================================================
+   Product: Features;
+   ========================================================================== */
+#interior .features li {
+    display: inline-block;
+    padding: 0 20px 15px 14px;
+    width: 318px;
+}
+
+#interior .features li:nth-child(even) {
+    margin-left: 20px;
+    padding: 0 0 15px 14px;
+}
+
+/* ==========================================================================
+   Product: Case Studies;
+   ========================================================================== */
+#interior .case-find {
+    color: #00a9e0;
+    text-align: right;
+}
+
+#interior .case-find a {
+    color: #00a9e0;
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   Solution: Cloud Computing;
+   ========================================================================== */
+#interior .solution-cloud {
+    border-top: 1px solid #939598;
+    margin-top: 60px;
+    padding: 60px 0;
+    position: relative;
+    width: 100%;
+}
+
+#interior .solution-cloud ~ .solution-cloud {
+    margin-top: 0;
+}
+
+#interior .solution-cloud h3 {
+    font-family: "FranklinGothicURW-Med";
+}
+
+#interior .solution-cloud a.back-top {
+    bottom: -20px;
+    position: absolute;
+    right: 30px;
+    z-index: 5;
+}
+
+#cloud-computing {
+    padding-bottom: 30px;
+}
+
+/* ==========================================================================
+   Industry: Academia;
+   ========================================================================== */
+#related-topics {
+    background: #ebebeb;
+    margin: 55px 0 -20px;
+    min-height: 244px;
+    padding: 35px;
+    width: 638px;
+}
+
+#related-topics .related-col {
+    float: left;
+    width: 300px;
+}
+
+#related-topics .related-col ~ .related-col {
+    margin-left: 38px;
+}
+
+#interior #related-topics h3 {
+    border-bottom: 1px solid #939598;
+    font-family: "FranklinGothicURW-Med";
+    font-size: 20px;
+    height: 38px;
+    line-height: 50px;
+    margin-bottom: 16px;
+}
+
+#interior #related-topics a {
+    display: block;
+    line-height: 20px;
+    padding-bottom: 6px;
+}
+
+/* ==========================================================================
+   Interior Blockquotes;
+   ========================================================================== */
+#interior .quotes {
+    border-top: 1px solid #939598;
+    border-bottom: 1px solid #939598;
+    margin: 55px 0 60px;
+    padding: 50px 40px 40px;
+    position: relative;
+}
+
+#interior .quotes img {
+    margin-left: -37px;
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    z-index: 5;
+}
+
+#interior .quotes a.pbs-btn {
+    float: right;
+}
+
+#interior .quotes blockquote {
+    color: #00a9e0;
+    font-family: 'FranklinGothicURW-Demi';
+    font-size: 24px;
+    font-style: italic;
+    margin: 0;
+    line-height: 42px;
+}
+
+#interior .quotes blockquote span {
+    font-size: 17px;
+}
+
+/* ==========================================================================
+   Interior Two-Columns;
+   ========================================================================== */
+#interior .two-col {
+    float: left;
+    height: auto;
+    padding-bottom: 50px;
+    width: 340px;
+}
+
+#interior .two-col ~ .two-col {
+    margin-left: 28px;
+}
+
+#interior .two-col a {
+    font-family: 'FranklinGothicURW-Demi';
+}
+
+/* ==========================================================================
+   Interior Banner;
+   ========================================================================== */
+#interior #banner {
+    height: 300px;
+    margin: 20px 0 60px;
+    position: relative;
+    width: 708px;
+}
+
+#interior #banner img ~ img,
+#interior #banner .desc ~ .desc {
+    display: none;
+}
+
+#interior #banner .desc {
+    bottom: 0;
+    height: 300px;
+    left: 0;
+    line-height: 20px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+#interior #banner .mask {
+    background-color: rgb(88,89,91); 
+    background-color: rgba(88,89,91,0.8);
+    color: #FFF;
+    cursor: default;
+    font-size: 15px;
+    height: 100px;
+    left: 0;
+    opacity: 1;
+    overflow: hidden;
+    padding: 0 3%;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateY(248px);
+    -moz-transform: translateY(248px);
+    -o-transform: translateY(248px);
+    -ms-transform: translateY(248px);
+    transform: translateY(248px);
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    width: 94%;
+}
+
+#interior #banner .mask a {
+    color: #fff;
+    text-decoration: underline !important;
+}
+
+#interior #banner .desc:hover .mask {
+    -webkit-transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    -o-transform: translateY(200px);
+    -ms-transform: translateY(200px);
+    transform: translateY(200px);
+}
+
+#interior #banner .desc h3 {
+    color: #FFF;
+    font-family: "FranklinGothicURW-Book";
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 7px 0 0;
+}
+
+#interior #banner #pager {
+    bottom: -40px;
+    right: 15px;
+}
+
+.lt-ie9 #interior #banner .mask {
+    top: 248px;
+}
+
+.lt-ie9 #interior #banner .desc:hover .mask {
+    top: 200px;
+}
+
+/* ==========================================================================
+   Flyout Menus;
+   ========================================================================== */
+#flyout-info, #flyout-down {
+    background: #6d6e71;
+    color: #fff;
+    display: none;
+    font-size: 17px;
+    height: auto;
+    padding: 0 50px;
+}
+
+#flyout-info {
+    width: 850px;
+}
+
+#flyout-down {
+    width: 520px;
+}
+
+#flyout-info h3, #flyout-down h3 {
+    font-family: "FranklinGothicURW-Demi";
+    font-size: 24px;
+}
+
+div[id^="flyout"]::-moz-selection,
+div[id^="flyout"] h3::-moz-selection {
+    background: #222;
+    color: #eaeaea;
+    text-shadow: none;
+}
+
+div[id^="flyout"]::selection,
+div[id^="flyout"] h3::selection {
+    background: #222;
+    color: #eaeaea;
+    text-shadow: none;
+}
+
+#flyout-info input[type="text"] {
+    background: #fff;
+    border: 2px solid #ebebeb;
+    color: #939598;
+    font-size: 14px;
+    height: 32px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 225px;
+}
+
+#flyout-info textarea {
+    width: 243px;
+}
+
+#flyout-info select {
+    background: #d7d7d7;
+    border: 2px solid #ccc;
+    color: #58595b;
+    font-family: "FranklinGothicURW-Book";
+    font-size: 16px;
+    height: 36px;
+    margin-bottom: 10px;
+    padding: 0.2em 6px;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 249px;
+}
+
+#flyout-info input[type="text"]:focus, #flyout-info select:focus {
+    border: 2px solid #333;
+    color: #333;
+}
+
+#flyout-info fieldset {
+    display: block;
+    float: left;
+    margin: 0 0 0 3px;
+    padding-top: 15px;
+    width: 360px;
+}
+
+#flyout-info label {
+    display: inline-block;
+    line-height: 24px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+#flyout-info fieldset ~ fieldset {
+    width: 460px;
+}
+
+#flyout-info fieldset ~ fieldset label {
+    width: 205px;
+}
+
+#flyout-info input[type="submit"] {
+    background-color: #00a9e0;
+    border: none;
+    -webkit-box-shadow: 0 1px 1px 0px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 1px 0px rgba(0,0,0,0.5);
+    color: #fff;
+    display: block;
+    font-family: 'FranklinGothicURW-Book';
+    font-size: 16px;
+    height: 38px;
+    padding: 0 12px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: background-color 0.10s ease-in-out;
+    -moz-transition: background-color 0.10s ease-in-out;
+    -o-transition: background-color 0.10s ease-in-out;
+    -ms-transition: background-color 0.10s ease-in-out;
+    transition: background-color 0.10s ease-in-out;
+    width: 150px;
+}
+
+#flyout-info input[type="submit"]:hover {
+    background: #ebebeb;
+    color: #58595b;
+}
+
+#flyout-info input[type="submit"]:active {
+    background-color: #ddd;
+    -webkit-box-shadow: 0 0px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 0px 1px 1px rgba(0,0,0,0.1);
+    top: 1px;
+}
+
+.fancybox-flyout .fancybox-nav {
+    width: 7.5%;
+}
+
+#flyout-down .flyout-btns {
+    margin: 0 auto;
+    padding-top: 58px;
+    width: 320px;
+}
+
+#flyout-down a.pbs-btn {
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    text-transform: none;
+    width: 190px;
+}
+
+#flyout-down a.pbs-btn.trial {
+    background-image: url("../images/bg_flyout_down.png");
+    min-height: 104px;
+    padding: 18px 10px 0 120px;
+}
+
+#flyout-down a.pbs-btn.buy-now {
+    background-image: url("../images/bg_flyout_buy.png");
+    margin: 18px 0 0;
+    min-height: 60px;
+    padding: 28px 10px 0 120px;
+}
+
+#flyout-down a.pbs-btn:hover {
+    background-position: -320px center;
+}
+
+/* ==========================================================================
+   ScrollUp;
+   ========================================================================== */
+#scrollUp {
+    background-image: url("../images/top.png");
+    background-repeat: no-repeat;
+    bottom: 80px;
+    color: #454545;
+    font-family: 'FranklinGothicURW-Med';
+    font-size: 16px;
+    outline: none;
+    padding-top: 40px;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 38px;
+    height: 38px;
+}
+
+/*#region Contact Support */
+div.int_contactSupport {
+    float: left;
+    overflow: auto;
+    padding-right: 35px;
+    width: 316px;
+}
+/*#endregion*/
+
+/*#region table sorter*/
+table.tablesorter {
+    background-color: #FFF;
+    border-collapse: collapse;
+    font-size: 13px !important;
+    margin: 15px 0;
+}
+    table.tablesorter thead, table.tablesorter tbody {
+        border-top-color: inherit !important;
+        border-bottom-color: inherit !important;
+    }
+    table.tablesorter tr {
+        -webkit-transition: background-color 0.3s linear;
+        -moz-transition: background-color 0.3s linear;
+        -o-transition: background-color 0.3s linear;
+        -ms-transition: background-color 0.3s linear;
+        transition: background-color 0.3s linear;
+        border-bottom: 1px solid #999;
+    }
+    table.tablesorter thead tr, table.tablesorter thead tr th {
+        background-color: #CCC !important;
+    }
+    table.tablesorter thead tr th {
+        color: #333;
+        cursor: default;
+        display: table-cell;
+        font-family: 'DaxWeb-Bold';
+        font-size: 20px !important;
+        font-weight: normal;
+        height: auto;
+        padding: 15px 10px !important;
+        text-align: left;
+    }
+    table.tablesorter tbody tr td {
+        cursor: default;
+        display: table-cell;
+        height: auto;
+        padding: 15px 10px !important;
+        width: 120px;
+    }
+    table.tablesorter thead tr th, table.tablesorter tfoot tr th, table.tablesorter tbody td {
+        border-left-color: inherit !important;
+        border-right-color: inherit !important;
+    }
+/*#endregion*/
+
+/*#region newsevents*/
+.newsevents table {
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-top: 1px solid #999;
+    font-size: 13px;
+    margin: 15px 0;
+    /*width: 870px;*/
+}
+
+.newsevents tr {
+    border-bottom: 1px solid #999;
+}
+
+.newsevents tr.headerrow {
+    background-color: #CCC !important;
+}
+
+.newsevents th {
+    color: #333;
+    cursor: default;
+    display: table-cell;
+    font-family: 'DaxWeb-Bold';
+    font-size: 20px;
+    font-weight: normal;
+    height: auto;
+    padding: 15px 10px;
+    text-align: left;
+}
+
+.newsevents tr td {
+    cursor: default;
+    display: table-cell;
+    height: auto;
+    padding: 15px 10px;
+    width: 120px;
+}
+
+.newsevents th ~ th, .newsevents tr td ~ td {
+    border-left: 1px solid #999;
+}
+
+.newsevents tr {
+    -webkit-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    -ms-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+.newsevents tr.row1 {
+    background-color: #F2FBFE;
+}
+
+.newsevents tr.row2 {
+    background-color: #FFF;
+}
+
+.newsevents tr:hover {
+    background-color: #E1EAED;
+}
+
+.newsevents a {
+    display: block;
+    height: auto;
+    line-height: 20px;
+    /*padding: 15px 10px;*/
+}
+
+.newsevents th a {
+    color: #333;
+}
+
+.newsevents table table {
+    border: medium none;
+    float: right;
+    width: 20%;
+    margin: 0px;
+}
+
+.newsevents table table td {
+    border: medium none;
+    width: 20px;
+    padding: 0px;
+}
+
+.newsevents table table tr {
+    border: medium none;
+}
+
+.newsevents table table tr td ~ td {
+    padding: 0px;
+}
+
+.newsevents table table a {
+    width: 10px;
+    padding: 0px;
+}
+
+.newsevents.events a {
+    padding: 0;
+    width: auto;
+}
+
+.newsevents.events tr td ~ td {
+    padding: 0 10px;
+}
+
+#rss_link {
+    float: right;
+}
+
+.news_contact {
+    margin-bottom: 16px;
+}
+
+ul.migration {
+    float: left;
+    width: 235px;
+}
+/*#endregion*/
+
+.required {
+    color: #ff0000;
+}

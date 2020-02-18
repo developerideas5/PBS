@@ -1,0 +1,35 @@
+BODY {background: white; color: black;}
+
+H1, H2, H3 {font-weight: bold;}
+H1 {font-size: 134%;}
+H2 {font-size: 117%;}
+H3 {font-size: 100%;}
+
+.mirrorwarning {font-size: small;}
+
+.release { background-color: rgba(0, 255, 0, 0.2); }
+.prerelease { background-color: rgba(255, 255, 0, 0.2); }
+.snapshot { background-color: rgba(255, 64, 0, 0.2); }
+
+table { border-collapse: collapse; }
+td    { padding-top: 0.2em; padding-bottom: 0.2em; padding-right: 2em; }
+.buildtype { display: block; font-weight: bold; margin-top: 1em;}
+
+.downloadheading { font-weight: bold; margin-top: 0.8em; }
+.downloadrow { margin-top: 0.2em; margin-bottom: 0.2em; }
+.downloadname { display: -moz-inline-box; display: inline-block;
+                max-width: 18vw; width: 8em; vertical-align: middle; }
+.downloadfile { display: -moz-inline-box; display: inline-block;
+                max-width: 36vw; width: 16em; vertical-align: middle; }
+.downloadftp { display: -moz-inline-box; display: inline-block;
+               max-width: 18vw; width: 8em; vertical-align: middle; }
+.downloadsig { display: -moz-inline-box; display: inline-block;
+               max-width: 18vw; width: 8em; vertical-align: middle; }
+
+.inlineblock { display: -moz-inline-box; display: inline-block;
+               vertical-align: middle; }
+.searchedit { max-width: 85vw; width: 32em; }
+
+.missing { margin-left: 10%; margin-right: 10%; margin-bottom: 5%;
+           border: medium solid red; padding: 3%;
+           background-color: #ffcccc; text-color: #000000 }

@@ -1,0 +1,38 @@
+echo "INFO:connecting LDAP@sdo2600"
+
+set--$(shh sdo2600 "ldapsearch -w localhost -x -D cn=Manager,dc=de uid=$user"|grep "^cn:"|sed "s/cn:\([A-Za-z]*\),\([A-Za-z]*\)/\1\2/")
+
+if[[-n $2]];then
+	
+	echo 	"INFO:creating User username:$user firstname: $2 lastname:$1"
+	
+	echo	"insert into Users(username,firstname,lastname)values('$user',$2,$1');">$sql_user_add
+	
+	mysql --user=$Database_User --password=Database_Password $Database_Name< $sql_user_add
+
+	
+	echo	"INFO: activating User $user for DEFAULT project"
+	echo	"select uid from Users where username='$user';">$sql_user_show
+
+	uid	=	$(mysql --skip-column-names --user=$Database_User --password=Database_Password $Database_Name< $sql_user_show)
+
+	echo	"insert into Meta_ProjectsUsers(pid,uid)values(1,$uid)">$sql_user_add
+
+	mysql--user=$Database_User --password=Database_Password $Database_Name< $sql_user_add
+	
+	else
+	
+			echo "ERROR:user $user not available at connection"
+	
+	fi
+	
+	else
+	
+			echo"INFO:User $user already exists in PBSMon database"
+	fi
+
+
+[-f $sql_user_add]&& /bin/rm $sql_user_add
+
+[-f $sql_user_show]&& /bin/rm $sql_user_show
+
